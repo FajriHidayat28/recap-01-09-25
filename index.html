@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>git save</title>
+    <!--internal CSS-->
+    <style>
+        header {
+            background-color: blue;
+        }
+
+        .main-header {
+            background-color: green;
+        }
+
+    </style>
+    <!--external css-->
+    <link rel="stylesheet" href="css\style.css">
 </head>
 <body>
+    <header>
+        <h1>header</h1>
+    </header>
+    <main>
+        <header class="main-header" >
+            <h2>header</h2>
+        </header>
+        <header class="main-header" id="unique-main-header">
+            <h2>header</h2>
+        </header>
     
+        <p>belajara layouting HTML dan CSS dengan struktur yang benar</p>
+    </main>
+    <!--inline CSS-->
+    <footer style="background-color: lightseagreen;">
+        <span>footer</span>
+    </footer>
 </body>
 </html>
